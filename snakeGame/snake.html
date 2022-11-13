@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            margin: 10px;
+            padding: px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+        canvas{
+            border: black 2px solid;
+        }
+        #upB{
+            width: 50px;
+            height: 50px;
+            margin: 0 3px;
+            background-color: 	 #ffbf00;
+            outline: none;
+            border: 1px solid black;
+            padding: 5px;
+            display: flex;
+            box-shadow: 2px 2px 2px black;
+            font-family: inherit;
+            font-size: 30px;
+            font-weight: bold;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            justify-content: center;
+            align-items: center;
+        }
+        #upB:hover {
+            box-shadow: 2px 2px 3px grey;
+            background-color:  #e6ac00;
+        }
+        #upB:active {
+            box-shadow: 1px 1px 3px;
+            background-color: #cc9900;
+
+        }
+        #doB{
+            width: 50px;
+            height: 50px;
+            margin: 0 3px;
+            background-color: 	 #ffbf00;
+            outline: none;
+            border: 1px solid black;
+            padding: 5px;
+            display: flex;
+            box-shadow: 2px 2px 2px black;
+            font-family: inherit;
+            font-size: 30px;
+            font-weight: bold;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            justify-content: center;
+            align-items: center;
+        }
+        #doB:hover {
+            box-shadow: 2px 2px 3px grey;
+            background-color:  #e6ac00;
+        }
+        #doB:active {
+            box-shadow: 1px 1px 3px;
+            background-color: #cc9900;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="750" height="750"></canvas>
+    <script src="snake.js"></script>
+</body>
+<p><button id="upB">UP</button></p>
+<p><button id="doB">DO</button></p>
+</html>
